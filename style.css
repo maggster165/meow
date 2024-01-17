@@ -1,75 +1,76 @@
-body{
-    background-color: #24273a;
-    color: #cad3f5;
-    font-family: 'Open Sans';
+body {
+  background-color: #24273a;
+  color: #cad3f5;
+  font-family: 'Open Sans';
+}
+.top {
+  display: inline-block;
+  margin-left: 10rem;
+}
+h1 {
+  margin-left: 1rem;
+}
+.pfp {
+  border-radius: 50%;
+  padding: 1rem;
+  float: none;
+  transition: 0.3s;
+  position: absolute
 
 }
-.top{
-    display: inline-block;
-
-    margin-left: 10rem;
-
+.pfp:hover {
+  scale: 125%;
+  transition: 0.3s;
 }
-h1{
-    margin-left: 1rem;
+p {
+  margin-left: 1rem;
 }
-
-.pfp{
-    border-radius: 50%;
-    padding: 1rem;
-    float: none;
-    transition: 0.3s;
-    position: absolute
+h3 {
+  margin-top: 4rem;
 }
-.pfp:hover{
-    scale: 125%;
-    transition: 0.3s;
+.logo,
+.logo2 {
+  width: 2rem;
+  float: left;
+  position: relative;
+  transition: 0.3s;
 }
-p{
-    margin-left: 1rem;
+.logo:hover,
+.logo2:hover {
+  background-color: #b7bdf8;
+  padding: 5px;
+  scale: 125%;
+  border-radius: 10px;
+  transition: 0.3s;
 }
-h3{
-margin-top: 4rem;
+.logo:hover {
+  content: url(catpdiscordhover.png);
 }
-.logo{
-    top: rem;
-    margin-left: 1rem;
-    float: left;
-    position: relative;
-    transition: 0.3s;
+.logo2:hover {
+  content: url(catpghover.png);
 }
-.logo2{
-    margin-left: 2rem;
-    position: relative;
-    float: none;
-    transition: 0.3s;
+h4 {
+  margin-left: 1rem;
 }
-.logo:hover{
-    background-color: #b7bdf8;
-    padding: 5px;
-    scale: 125%;
-    border-radius: 10px;
-    transition: 0.3s;
-    content: url(catpdiscordhover.png);
-    
+.aboutbox {
+  margin-left: 2rem;
 }
-.logo2:hover{
-    background-color: #b7bdf8;
-    padding: 5px;
-    scale: 125%;
-    border-radius: 10px;
-    transition: 0.3s;
-    content: url(catpghover.png);
-}
-h4{
-    margin-left: 1rem;
-}
-.aboutbox{
-    margin-left: 2rem;
-}
-a:link{
-    color: #c6a0f6;
+a:link {
+  color: #c6a0f6;
 }
 a:visited {
-    color: #b7bdf8;
-  }
+  color: #b7bdf8;
+}
+.buttons {
+  margin-left: 1rem;
+  height: 4rem;
+  display:flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.buttons .btn {
+  width: 3rem;
+  display: flex;
+  
+  justify-content: center;
+}
