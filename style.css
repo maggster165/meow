@@ -1,76 +1,118 @@
+/* i feel that removing every remnant would take so long i dont wanna do it at ALL rn */
 body {
-  background-color: #24273a;
-  color: #cad3f5;
-  font-family: 'Open Sans';
+  background-image: url(image.jpg);
+  background-size: auto;
+  font-family: 'Inter';
 }
 .top {
   display: inline-block;
   margin-left: 10rem;
 }
 h1 {
-  margin-left: 1rem;
+  color: #3d276b;
 }
-.pfp {
-  border-radius: 50%;
-  padding: 1rem;
-  float: none;
-  transition: 0.3s;
-  position: absolute
-
-}
-.pfp:hover {
-  scale: 125%;
-  transition: 0.3s;
-}
-p {
-  margin-left: 1rem;
-}
-h3 {
+.title{
   margin-top: 4rem;
 }
-.logo,
-.logo2 {
-  width: 2rem;
-  float: left;
-  position: relative;
-  transition: 0.3s;
+.titletext{
+  margin-top: 3rem;
+  text-align: center;
 }
-.logo:hover,
-.logo2:hover {
-  background-color: #b7bdf8;
-  padding: 5px;
-  scale: 125%;
-  border-radius: 10px;
-  transition: 0.3s;
-}
-.logo:hover {
-  content: url(catpdiscordhover.png);
-}
-.logo2:hover {
-  content: url(catpghover.png);
-}
+
 h4 {
-  margin-left: 1rem;
+  color: #795ab8;
 }
-.aboutbox {
-  margin-left: 2rem;
+h3 {
+	color: #795ab8;
 }
-a:link {
-  color: #c6a0f6;
+a {
+	color: #7345cf;
+}
+.endbar {
+	color: #3d276b;
 }
 a:visited {
-  color: #b7bdf8;
+	color: #4c317e;
 }
-.buttons {
-  margin-left: 1rem;
-  height: 4rem;
-  display:flex;
-  justify-content: flex-start;
-  align-items: center;
+.flex-container0 {
+display: flex;
+text-align: center;
+margin: auto;
+width: 940px;
+padding-bottom: 10px;
+align-items: center;
 }
-.buttons .btn {
-  width: 3rem;
-  display: flex;
-  
-  justify-content: center;
+ul {
+	list-style: none;
+	margin-right: 2.5rem;
+}
+
+.flex-container {
+display: flex;
+text-align: center;
+border-radius: 15px;
+margin: auto;
+max-width: 1000px;
+max-height: 1000px;
+min-height: 500px;
+align-items: center;
+}
+.flex-container > .aboutbox{
+  box-shadow: 5px 10px 50px #797b7d;
+  max-width: 650px;
+  height: 500px;
+  backdrop-filter: blur(10px);
+  margin: auto;
+  padding: 1rem;
+  border-radius: 10px;
+  transition: box-shadow 1s;
+}
+.flex-container > .aboutbox:hover{
+  box-shadow: 5px 10px 50px #894ccf;
+  }
+.flex-container > .navbar{
+  box-shadow: 5px 10px 50px #797b7d;
+  height: 31.25rem;
+  backdrop-filter: blur(10px);
+  width: 9.3rem;
+  padding-right: 10rem; 
+  padding: 1rem;
+  border-radius: 10px;
+  transition: box-shadow 1s;
+}
+.flex-container > .navbar:hover{
+  box-shadow: 5px 10px 50px #894ccf;
+  }
+.flex-container > .general{
+  box-shadow: 5px 10px 50px #797b7d;
+  backdrop-filter: blur(10px);
+  height: 31.25rem;
+  width: 9.3rem;
+  padding-right: 10rem; 
+  padding: 1rem;
+  border-radius: 10px;
+  transition: box-shadow 1s;
+}
+.flex-container > .general:hover{
+  box-shadow: 5px 10px 50px #894ccf;
+  }
+.end {
+  content: center;
+  text-align: center;
+  max-width: 650px;
+  margin: auto;
+  left: 1%; 
+  right: 1%;
+
+}
+@media screen and (max-width: 700px) {
+  .flex-container > .aboutbox{
+    height: 700px;
+  }
+  .flex-container > .navbar {
+    height: 700px;
+  }
+  .flex-container > .general {
+    height: 700px;
+  }
 }
